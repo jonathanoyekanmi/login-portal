@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -12,4 +15,42 @@ html, body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(bg.jpg) no-repeat center/cover;
     min-height: 450px;
     position: relative;
+}
+
+.form-container {
+    max-width: 300px;
+    position: absolute;
+    margin: 20px;
+    right: 0;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+input[type=text], 
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+input[type=text]:focus, 
+input[type=password]:focus {
+    outline:none;
+    background-color: #ddd;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 15px;
+    border: none;
+    opacity: .8;
+}
+
+.btn:focus {
+    outline: none;
+    opacity: 1;
 }
