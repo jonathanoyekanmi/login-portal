@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="resources/style.css">
 </head>
 <body>
+    <p>This example creates a form on a responsive image. Try to resize the browser window to see how it always will cover the whole width of the screen, and that it scales nicely on all screen sizes.</p>
     <div class="loginrow">
         <form action="" method="GET" class="form-container">
             <h1>Login</h1>
 
             <label for="username"><strong>Username</strong></label>
-            <input type="text" name="username" placeholder="Enter email">
+            <input type="text" name="username" placeholder="Enter email" required>
             <label for="pwd"><strong>Password</strong></label>
-            <input type="password" name="pwd" placeholder="Enter password">
+            <input type="password" name="pwd" placeholder="Enter password" required>
             <button type="submit" class="btn">Login</button>
         </form>
     </div>

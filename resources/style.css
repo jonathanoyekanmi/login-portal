@@ -7,13 +7,13 @@ html, body {
     height: 100%;
     font-family: montserrat;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(27, 27, 27);
 }
 
 .loginrow {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(bg.jpg) no-repeat center/cover;
-    min-height: 450px;
+    min-height: 400px;
     position: relative;
 }
 
@@ -44,13 +44,15 @@ input[type=password]:focus {
 .btn {
     width: 100%;
     text-align: center;
-    background-color: yellowgreen;
+    background-color: #4caf50;
     padding: 15px;
     border: none;
     opacity: .8;
+    outline: none;
+    color: whitesmoke;
 }
 
-.btn:focus {
+.btn:hover {
     outline: none;
     opacity: 1;
 }
